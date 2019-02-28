@@ -1,0 +1,27 @@
+Cara Clone Project : 
+1. Buka Responsitories yang akan di clone
+2. Pilih Responsitories
+3. Pilih pilihan Clone or Download kemuadian salin https atau SSH 
+4. Buka document, buat folder clone
+5. Klik kanan dan pilih git bash here
+6. Ketikan -> git clone (paste salinan https atau SSH tadi)
+7. Lalu enter
+8. Folder yang ingin kita clone tadi sudah tersimpan di folder clone yang kita buat
+
+Cara Host Project :
+1. Klik icon + pada kanan halaman
+2. Pilih New Respository
+3. Isi respository name dengan nama folder atau file yang akan di upload
+4. Isi deskripsi
+5. Pilih pilihan Public supaya bisa dilihat semua orang
+6. Klik Create respository
+7. Buka document 
+8. Klik kanan pada folder yang akan di upload 
+9. Pilih git bash here 
+10. Kemudian ketikan :
+	- git init kemudian enter
+	- git add * kemudian enter
+	- git commit -m "isi dengan komentar yang anda butuhkan" kemudian enter
+	- git remote add origin https:// (alamat yang di dapatkan dari git, SSH atau https)
+	- git push origin master
+11. Refresh github pastikan folder atau file sudah terupload
